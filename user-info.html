@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Information</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 2rem;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .user-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 2rem;
+      }
+      .user-table th,
+      .user-table td {
+        padding: 1rem;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      .user-table th {
+        background-color: #f8f9fa;
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .btn:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>User Information</h1>
+      <table class="user-table">
+        <tr>
+          <th>Field</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>John Doe</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>john.doe@example.com</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>+1 234 567 890</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>123 Main St, New York, USA</td>
+        </tr>
+      </table>
+      <a href="profile.html" class="btn">View Profile</a>
+    </div>
+  </body>
+</html>

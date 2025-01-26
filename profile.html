@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 2rem;
+      }
+      .profile-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .profile-header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+      .profile-details {
+        margin-bottom: 2rem;
+      }
+      .detail-item {
+        margin-bottom: 1rem;
+      }
+      .detail-label {
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+      .bio-section {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 4px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .btn:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="profile-header">
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Profile Picture"
+          class="profile-picture"
+        />
+        <h1>John Doe</h1>
+      </div>
+
+      <div class="profile-details">
+        <div class="detail-item">
+          <span class="detail-label">Email:</span>
+          <span>john.doe@example.com</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Phone:</span>
+          <span>+1 234 567 890</span>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Location:</span>
+          <span>New York, USA</span>
+        </div>
+      </div>
+
+      <div class="bio-section">
+        <h2>About Me</h2>
+        <p>
+          Experienced software engineer with a passion for building scalable web
+          applications. Skilled in JavaScript, Python, and cloud technologies.
+          Always eager to learn and implement new technologies to solve complex
+          problems.
+        </p>
+      </div>
+
+      <div style="margin-top: 2rem; text-align: center">
+        <a href="user-info.html" class="btn">Back to User Info</a>
+      </div>
+    </div>
+  </body>
+</html>
